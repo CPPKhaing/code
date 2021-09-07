@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hw11_1.css">
+    <script type="text/javascript" src="hw11_1.js"></script>
+</head>
+<body onload="cardAppear()">
+  <div class="titlename">Zoological Garden</div>
+    <div class="main">
+      <div class="card" onclick="flip(this)" id="card1">
+        <img src="" class="img" />
+      </div>
+      <div class="card" onclick="flip(this)" id="card2">
+        <img src="" class="img" />
+      </div>
+      <div class="card" onclick="flip(this)" id="card3">
+        <img src="" class="img" />
+      </div>
+      <div class="card" onclick="flip(this)" id="card4">
+        <img src="" class="img" />
+      </div>
+      <div class="card" onclick="flip(this)" id="card5">
+        <img src="" class="img" />
+      </div>
+      <div class="card" onclick="flip(this)"id="card6">
+        <img src="" class="img" />
+      </div>
+      <div class="card" onclick="flip(this)" id="card7">
+        <img src="" class="img" />
+      </div>
+      <div class="card" onclick="flip(this)" id="card8">
+        <img src="" class="img" />
+      </div>
+      <div class="card" onclick="flip(this)" id="card9">
+        <img src="" class="img" />
+      </div>
+      <div class="card" onclick="flip(this)" id="card10">
+        <img src="" class="img" />
+      </div>
+      <div class="card" onclick="flip(this)" id="card11">
+        <img src="" class="img" />
+      </div>
+      <div class="card" onclick="flip(this)" id="card12">
+        <img src="" class="img" />
+      </div>
+    </div>
+      <br>
+
+        <button onclick="startGame()" id="sGame">Start</button>
+          <div class="timeleft">Timing Left &#8594;</div>
+            <div id="timing"> </div>
+              <br>
+
+              <h3> 	&#9733; You can choice your time limit as you want.</h3>
+
+                <div class="timeChoice">
+                  <button onclick="playNormal()" id="start">30sec</button>
+                  <button onclick="playFast()" id="start">50sec</button>
+                  <button onclick="playMoreFast()" id="start">80sec</button>
+                </div>
+      
+      
+      <div id="gameover" class="box">
+        <h1>Game over</h1>
+        <h2>Time up! Please play again &#9829;	</h2>
+        <img src="cry.png" alt="" id="cryimg">
+      
+        <button class="btn" onclick = "playAgain()" > Play Again </button>  
+      
+      </div>
+
+      <div id="gamewin" class="box">
+        <h1>Game Win</h1>
+        <h2>You have found all pairs of cards &#9829;	</h2>
+        <img src="gamewin.webp" alt="" id="cryimg">
+      
+        <button class="btn" onclick = "playAgain()" > Play Again </button>  
+      
+      </div>
+        <audio id="gOverSound" src="Game-over-ident.mp3"></audio>
+        <audio id="gWinSound" src="Game-show-winner-sound-effect.mp3"></audio>
+        
+  </body>
+    
+</body>
+</html>

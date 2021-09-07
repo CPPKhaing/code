@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif; 
+    
+}
+
+body{
+    
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(hsl(88, 88%, 74%), #E4FBFF);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titlename{
+    
+    width: 450px;
+    height: 50px;
+    color: #C2F784;
+    margin-top: 10px;
+    margin-left: 520px;
+    padding-left: 80px;
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow:2px 2px 2px gray;
+    border: 2px solid ;
+    background-color:white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px greenyellow;
+}
+
+.main{
+
+    width: 500px;
+    height: 380px;
+    margin: 30px 0 0 550px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 3px 3px 3px greenyellow;
+}
+
+.card{
+    width:100px;
+    height: 100px;
+    float: left;
+    border:2px solid white;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #C2F784; 
+    box-shadow: 3px 3px 3px greenyellow;
+    font-size: 50px;
+    color: rgb(83, 138, 2);
+    font-style: oblique;
+    text-shadow:2px 2px 2px ivory;
+    transition: all 2s linear;
+} 
+
+
+img{
+
+    /*width:80px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 10px;*/
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+#sGame{
+    
+    margin-top: 20px;
+    margin-left: 550px;
+    width:150px;
+    height: 50px;
+    background-color: #C2F784;  
+    font-size: 30px;
+    font-weight: 500px;
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: 3px 3px 3px greenyellow;
+    display: inline;
+    padding: 5px;
+
+}
+#start{
+    
+    margin-top:20px;
+    margin-left: 250px;
+    width:150px;
+    height: 40px;
+    background-color: #C2F784;  
+    font-size: 25px;
+    font-weight: 500px;
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: 3px 3px 3px greenyellow;
+    padding: 2px;
+
+}
+.timeChoice{
+
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    display: inline;
+}
+
+#timing{
+
+    color: green;
+    font-size: 70px;
+    margin-left:50px;
+    margin-top: 100px;
+    display: inline;
+    animation: t 1s infinite;
+
+}
+@keyframes t{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
+.timeleft{
+
+    margin-top: 30px;
+    margin-left: 50px;
+    display: inline;
+    color: black;
+    font-size: 30px;
+    font-weight: 500px;
+    display: inline;
+
+}
+.box{
+    width:500px;
+    height: 400px;
+    background-color:gray;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 3px 3px 3px greenyellow;
+    position:relative;
+    flex-direction: row;
+    
+}
+h1{
+    color: #C2F784;
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow:2px 2px 2px black;
+}
+
+h2{
+    margin-top: 30px;
+    color: white;
+}
+
+h3{
+    margin-top: 40px;
+    margin-left: 550px;
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: gray;
+    padding-left: 30px;
+    color:#C2F784;  
+    text-shadow:1px 1px 1px black;
+}
+
+#cryimg{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 150px;
+    height: 150px;
+}
+.btn{
+    
+    margin-top: 220px;
+    margin-left: 20px;
+    color: black;
+    width: 200px;
+    height: 50px;
+    padding:2px 0 0 2px;
+    border-radius: 20px;
+    font-size: 25px;
+    box-shadow: 2px 2px 2px  greenyellow;
+    display: inline;
+} 
+#gameover{
+    display: none;
+}
+#gamewin{
+    display: none;
+}
